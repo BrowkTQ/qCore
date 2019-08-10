@@ -13,9 +13,8 @@
     <orderEntry type="library" name="votifier-1.9" level="project" />
     <orderEntry type="library" name="PlaceholderAPI-2.8.7" level="project" />
     <orderEntry type="library" name="Vault" level="project" />
-    <orderEntry type="library" name="Factions16" level="project" />
+    <orderEntry type="library" name="Factions" level="project" />
     <orderEntry type="library" name="PlotSquared-Bukkit-17.09.01-24b3b60-1908" level="project" />
-    <orderEntry type="library" name="LiteBans" level="project" />
-    <orderEntry type="library" name="askyblock (2)" level="project" />
+    <orderEntry type="library" name="askyblock" level="project" />
   </component>
 </module>
