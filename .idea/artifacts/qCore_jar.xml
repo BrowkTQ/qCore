@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="qCore:jar">
+    <output-path>$PROJECT_DIR$/../../..</output-path>
+    <root id="archive" name="qCore - 1.2.4.jar">
+      <element id="module-output" name="qCoreOld" />
+    </root>
+  </artifact>
+</component>

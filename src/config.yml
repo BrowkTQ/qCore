@@ -1,0 +1,75 @@
+#Conectare MySQL
+Host: 0.0.0.0
+Port: 3306
+Database: 'numeDatabase'
+User: 'username'
+Password: 'parola'
+
+#IP WHITELIST
+IP:
+- 127.0.0.1
+
+#Numele sectiunii:
+Server: 'Lobby'
+
+#Dezactiveaza anumite comenzi:
+Inavabile Commands:
+- '/plugins'
+- '/pl'
+- '/bukkit:pl'
+- '/bukkit:plugins'
+- '/bukkit:me'
+- '/minecraft:me'
+- '/minecraft:help'
+- '/bukkit:help'
+- '/?'
+- '/bukkit:?'
+- '/minecraft:?'
+- '/plugman list'
+
+Tp Time: 0
+
+#Optiuni vote:
+Vote Command:
+- 'tokens give <PLAYER> 50'
+Vote Party On: true
+Vote Party: 50
+DropParty Command:
+- 'tokens give <PLAYER> 50'
+Auto Restart: true
+
+#First-Join
+Start Money: 500
+Default Kit: 'false'
+
+#Optiuni pentru join:
+Welcome:
+  Motd:
+    enable: true
+    message:
+    - '&8&m--+------------------------------------+--&r'
+    - '<center>&eqCore Plugin'
+    - '<center>&fby Browk_'
+    - '&8&m--+------------------------------------+--&r'
+  Title:
+    enable: true
+    title-message: "&fBine ai venit!"
+    subtitle-message: "&eSUMMER UPDATE!"
+    fadeIn: 20
+    stay: 40
+    fadeOut: 20
+Spawn Tp: true
+
+#Optiuni pentru chat:
+Chat Cooldown: 2 #secunde (bypass: essentials.chat.cooldown.bypass)
+Cuvinte Blocate:
+- 'pula'
+- 'pizda'
+- 'gamster'
+- 'moonland'
+Chat-Format:
+  Player-prefix: "<PREFIX> "
+  Player-suffix: ""
+  Player-name: "&f<PLAYER>" #nu schimba (asta pune numele din core, cel cu /nick)
+  Separator-Nume-Mesaj: " &8>> &f"
+  Hover-text: "Bani: <MONEY>\nPlaceholder random: %askyblock_level%"

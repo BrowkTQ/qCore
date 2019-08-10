@@ -1,0 +1,248 @@
+name: qCore
+version: 1.2.4
+main: me.Browk.qCore.Main
+description: Acest plugin contine comenzi si utilitati esentiale.
+authors: [Browk_]
+softdepend: [PlotSquared,Factions,LiteBans]
+depend: [Votifier,Vault]
+
+commands:
+  qcore:
+   description: Default command.
+  adminchat:
+   description: A special chat for admins.
+   aliases: [a,ac]
+  back:
+   description: Returns you to your last position from a prior teleport.
+  balance:
+   description: Gives the current balance of a player.
+   aliases: [bal,balance,money]
+  balancetop:
+   description: Displays the top account balances.
+   aliases: [moneytop,baltop]
+  broadcast:
+   description: Broadcast to all players.
+   aliases: [bc]
+  burn:
+   description: Sets a player on fire.
+  clearinventory:
+   description: Clear a players inventory.
+   aliases: [ci,clear,clearinv]
+  delhome:
+   description: Removes a home.
+  deljail:
+   description: Deletes a jail.
+  delwarp:
+   description: Removes a warp location by warp name.
+  eco:
+   description: Modify a players balance by the given amount.
+  enchant:
+   description: Enchants the item the user is holding.
+   aliases: [enchantment]
+  enderchest:
+   description: Lets you see inside an enderchest.
+   aliases: [ec,echest]
+  exp:
+   description: Give,set or look at a players exp.
+   aliases: [xp]
+  feed:
+   description: Satisfy the hunger.
+   aliases: [eat]
+  fly:
+   description: Allows for creative mode fly.
+   aliases: [flight]
+  getpos:
+   description: Displays your current coordinate location in the world.
+   aliases: [coords,position,whereami,getlocation,getloc]
+  give:
+   description: Give another player an item.
+   aliases: [giveitem]
+  giveall:
+   description: Give all players an item.
+  gamemode:
+   description: Change player gamemode.
+   aliases: [gm,creative,survival,adventure,gmc,gma,gms,gmt]
+  god:
+   description: Toggles god mode.
+   aliases: [godmode,tgm]
+  hat:
+   description: Get some cool new headgear.
+  heal:
+   description: Heal a player.
+  help:
+   description: This displays the help commands for qCore.
+  helpop:
+   description: Requests help from online staff.
+   aliases: [report]
+  home:
+   description: Teleports you home.
+  ignore:
+   description: Ignore a player
+   aliases: [block]
+  invsee:
+   description: See the inventory of other players.
+  item:
+   description: Gives yourself a specified item.
+   aliases: [i]
+  itemdb:
+   description: Displays the item information attached to an item.
+  jail:
+   description: Sends/Removes a player to a jail.
+   aliases: [tjail,unjail,togglejail]
+  jails:
+   description: List all jails.
+  kickall:
+   description: Kicks all players off the server.
+  kill:
+   description: Kills a player.
+  kit:
+   description: Spawn a predefined kit.
+   aliases: [kits]
+  kitpreview:
+   description: Spawn a predefined kit.
+   aliases: [previewkit]
+  killall:
+   description: Removes entities in your world.
+   aliases: [butcher,mobkill]
+  lag:
+   description: Displays server usage information.
+   aliases: [gc,tps,mem]
+  list:
+   description: Lists the players online and how many slots are left.
+   aliases: [who,playerlist,plist,online]
+  me:
+   description: Allows you to emote.
+  more:
+   description: Fills the item stack in hand to maximum size.
+  motd:
+   description: See the motd.
+  near:
+   description: Lists the players who are nearby
+   aliases: [nearby]
+  nick:
+   description: Change your display name.
+   aliases: [nickname,displayname]
+  pay:
+   description: Pays a specified player from your balance.
+  ptime:
+   description: Change a players time.
+   aliases: [playertime]
+  reply:
+   description: Quickly reply to the last player to message you.
+   aliases: [r]
+  realname:
+   description: Allows you to see a player's real username.
+  repair:
+   description: Repairs the durability of all or one item.
+   aliases: [fix]
+  seen:
+   description: Check when a player was last online.
+  sethome:
+   description: Sets your home location.
+   aliases: [createhome]
+  setjail:
+   description: Create a new jail location.
+   aliases: [createjail]
+  setspawn:
+   description: Sets the spawn location.
+  setwarp:
+   description: Defines a new warp location.
+   aliases: [createwarp]
+  skull:
+   description: Set the owner of a player skull.
+   aliases: [head,playerskull]
+  socialspy:
+   description: See other players private messages.
+  spawn:
+   description: Teleports you to spawn.
+  spawner:
+   description: Change the mob type of a spawner.
+   aliases: [changems,mobspawner]
+  spawnmob:
+   description: Allows you to spawn a specified mob with an optional mount.
+   aliases: [mob]
+  speed:
+   description: Change your speed limits.
+   aliases: [flyspeed,walkspeed,fspeed,wspeed]
+  suicide:
+   description: Commit suicide.
+  thunder:
+   description: Toggle/trigger thunder.
+   aliases: [strike,thor]
+  time:
+   description: Change or display the server time.
+   aliases: [night,day]
+  top:
+   description: Teleports you to the highest block at your current location.
+  tp:
+   description: Teleport directly to a player.
+  tpall:
+   description: Teleports all connected players.
+  tpa:
+   description: Asks the player if you can teleport to them.
+  tpaccept:
+   description: Accept a /tpa request.
+  tpahere:
+   description: Asks the specified player to accept transport to your location.
+  tpdeny:
+   description: Deny a /tpa request.
+  tphere:
+   description: Teleport player directly to you.
+   aliases: [s]
+  tpo:
+   description: Overrides players preferences and teleports you to the player.
+  tpohere:
+   description: Overrides players preferences and teleports player to you.
+  tppos:
+   description: Teleports you directly to a location.
+  tptoggle:
+   description: Toggles players ability to teleport to you.
+  vanish:
+   description: Hide yourself from other players.
+   aliases: [v]
+  warp:
+   description: Warps you to a pre-set location.
+   aliases: [warps]
+  weather:
+   description: Manipulates the weather.
+   aliases: [sun,thunder,snow]
+  whois:
+   description: Displays player information.
+  workbench:
+   description: Opens up a workbench.
+   aliases: [wb,craft,crafting]
+  giveall:
+   description: Give all players an item.
+  sudo:
+   description: Make another user perform a command.
+   aliases: [forcedo]
+  msg:
+   description: This allows you to private message another player.
+   aliases: [tell, m, t, whisper, w]
+  setlang:
+    description: You can change your language.
+  msgtoggle:
+    description: Toggles players ability to whisper to you.
+  tokens:
+   description: Modify a players balance by the given amount.
+  vote:
+   description: See your votes.
+  stats:
+   description: Hahaha you don't see me :3
+
+permissions:
+    essentials.donator:
+        description: Be a donator. xD
+        default: false
+    essentials.staff:
+        description: Be a staff xDDD
+        default: false
+    cjplay.prime:
+        description: Mesaj special pt join.
+        default: false
+    essentials.enderchest:
+        description: Mesaj special pt join.
+        default: op
+    essentials.nick:
+        description: Mesaj special pt join.
+        default: op
